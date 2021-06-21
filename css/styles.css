@@ -1,0 +1,115 @@
+
+body {
+ font-family: 'Work Sans', sans-serif;
+ color: #112d4e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Crimson Text', serif;
+}
+
+
+section {
+  padding: 3% 22%;
+}
+
+h3 {
+  text-align: center;
+}
+/* about me section */
+#about-me {
+  background-color:  #f9f7f7;
+  color: #112d4e;
+}
+
+.profile-pic {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  border-color: #112d4e;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+/* experience section */
+#experience {
+  background-color: #dbe2ef;
+  color: #112d4e;
+}
+
+.experience-details {
+
+}
+
+.job-title {
+	margin-bottom: 1%;
+}
+
+.job-details {
+	line-height: 1.5;
+	padding-left: 5%;
+	margin-bottom: 1%;
+}
+
+.work-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* experience adjustments for ipad/iphone */
+@media (max-width: 980px) {
+
+}
+
+/* abilities section */
+#abilities {
+	background-color:  #f9f7f7;
+	color: #112d4e;
+}
+
+.abilities-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* projects section */
+#projects {
+
+  background-color: #dbe2ef;
+  color: #112d4e;
+}
+
+/* contact section */
+#contact {
+  text-align: center;
+  background-color: #3f72af;
+  color: #f9f7f7;
+  padding-bottom: 5%;
+}
+
+.footer-link {
+  color: #f9f7f7;
+  transition: color .5s;
+}
+
+.footer-link:hover {
+  color: #112d4e;
+  text-decoration: none;
+}
+
+.footer-icon {
+  margin: 0 5px;
+}
