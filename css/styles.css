@@ -1,5 +1,5 @@
 
-body {
+body, nav {
  font-family: 'Work Sans', sans-serif;
  color: #112d4e;
 }
@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
  font-family: 'Crimson Text', serif;
 }
 
+.navbar {
+  margin-top: 0;
+
+}
 
 section {
   padding: 3% 22%;
@@ -52,32 +56,6 @@ hr {
 
 h3 {
   font-size: 3.5rem;
-}
-
-
-/* experience section */
-#experience {
-  background-color: #dbe2ef;
-  color: #112d4e;
-}
-
-.experience-details {
-
-}
-
-.job-title {
-	margin-bottom: 1%;
-}
-
-.job-details {
-	line-height: 1.5;
-	padding-left: 5%;
-	margin-bottom: 1%;
-}
-
-.work-info {
-  list-style-type: none;
-  padding: 0;
 }
 
 /* experience adjustments for ipad/iphone */
