@@ -30,12 +30,15 @@
 
 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-transparent">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#about-me">Brian McAbee</a>
+    <!-- <a class="navbar-brand" href="#about-me">Brian McAbee</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#about-me">About</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="#projects">Projects</a>
         </li>
@@ -58,10 +61,10 @@
       <hr>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 text-right my-auto">
+        <div class="col-lg-4 col-md-6 col-sm-12 text-right my-auto">
           <img class="img-fluid "src="images\brian side profile.png" alt="brian profile picture">
         </div>
-        <div class="col-lg-8 col-md-6 ">
+        <div class="col-lg-8 col-md-6 col-sm-12">
           <h5>About Me</h5>
           <p>Current Senior Data Analyst supporting the Defense Intelligence Agency (DIA) learning full-stack web development in
             hopes of diversifying my skill set for both career and personal advancement.</p>
@@ -72,7 +75,12 @@
           <p>TS/SCI with Counterintelligence (CI) Polygraph</p>
 
           <!-- Resume Button -->
-          <a class="btn" target="_blank" href="Brian McAbee Resume_SrDA.pdf">Resume</a>
+          <div class="btn-row col-sm-6">
+            <a class="btn" target="_blank" href="Brian McAbee Resume_SrDA.pdf">Resume</a>
+            <a class="btn" target="_blank" href="https://github.com/brianmcabee/portfolio/blob/main/index.html">Source Code</a>
+          </div>
+
+
         </div>
       </div>
 
