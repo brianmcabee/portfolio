@@ -67,12 +67,22 @@ h3 {
   #about-me {
     text-align: center;
   }
+
   .first-heading {
     margin-top: 7px;
   }
 
+  #about-me h5 {
+    font-size: 4rem;
+    margin-top: 4%;
+  }
+
+  #about-me p {
+    font-size: 2rem;
+  }
   #about-me a {
     font-size: 1.5rem;
+    margin-top: 2%;
   }
 
 }
