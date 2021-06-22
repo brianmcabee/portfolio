@@ -22,30 +22,18 @@ h3 {
   color: #112d4e;
 }
 
-#about-me button {
+.btn {
   background-color: #112d4e;
   border: none;
   color: #fff;
 }
 
-#about-me button:hover {
+.btn:hover {
   transition: ease .2s;
   filter: brightness(120%);
-}
-
-button a {
-  text-decoration: none;
   color: #fff;
 }
 
-button a:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
-.profile-pic {
-  width: 100%;
-}
 
 h1 {
   text-align: center;
