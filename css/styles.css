@@ -22,6 +22,17 @@ h3 {
   color: #112d4e;
 }
 
+#about-me button {
+  background-color: #112d4e;
+  border: none;
+
+}
+
+#about-me button:hover {
+  transition: ease .2s;
+  filter: brightness(60%);
+}
+
 .profile-pic {
   width: 100%;
 }
@@ -44,6 +55,7 @@ hr {
 h3 {
   font-size: 3.5rem;
 }
+
 
 /* experience section */
 #experience {
