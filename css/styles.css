@@ -33,6 +33,16 @@ h3 {
   filter: brightness(120%);
 }
 
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 .profile-pic {
   width: 100%;
 }
