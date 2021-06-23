@@ -84,7 +84,6 @@ h3 {
     font-size: 1.5rem;
     margin-top: 2%;
   }
-
 }
 
 /* experience adjustments for full screen desktop */
@@ -94,6 +93,39 @@ h3 {
   }
 }
 
+/* projects section */
+#projects {
+  background-color: #dbe2ef;
+  color: #112d4e;
+  padding: 3% 12%;
+}
+
+.project-img {
+  height: 200;
+  width: 200;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: #000;
+
+}
+
+.card:hover .card-img-overlay {
+  opacity: .9;
+}
+
+.overlay-text {
+  color: #fff;
+}
 /* abilities section */
 #abilities {
 	background-color:  #f9f7f7;
@@ -105,11 +137,7 @@ h3 {
   padding: 0;
 }
 
-/* projects section */
-#projects {
-  background-color: #dbe2ef;
-  color: #112d4e;
-}
+
 
 /* contact section */
 #contact {
