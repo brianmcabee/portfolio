@@ -27,16 +27,24 @@ h3 {
   color: #112d4e;
 }
 
-#about-me p {
-  font-size: 1.25rem;
+.about-me-info-card {
+  margin: auto 0;
 }
 
-#about-me p strong {
+.info-card-txt {
   font-size: 2rem;
+  margin: 2% 0;
 }
 
-#about-me p strong {
+.info-card-txt strong {
+  font-size: 2.5rem;
   margin: 0 auto;
+}
+
+.about-me-icon {
+  width: 2.25rem;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .btn {
@@ -79,6 +87,10 @@ h3 {
 @media (max-width: 980px) {
   #about-me {
     text-align: center;
+  }
+
+  .about-me-info-card {
+    text-align: left;
   }
 
   .first-heading {
