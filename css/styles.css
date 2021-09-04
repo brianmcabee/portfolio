@@ -1,13 +1,17 @@
-
-body, nav {
- font-family: 'Work Sans', sans-serif;
- color: #112d4e;
+body,
+nav {
+  font-family: "Work Sans", sans-serif;
+  color: #112d4e;
 }
 
-h1, h2, h3, h4, h5, h6 {
- font-family: 'Crimson Text', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Text", serif;
 }
-
 
 section {
   padding: 3% 15%;
@@ -16,17 +20,23 @@ section {
 h3 {
   text-align: center;
 }
+
 /* about me section */
 #about-me {
-  background-color:  #f9f7f7;
+  background-color: #f9f7f7;
   color: #112d4e;
 }
 
-#about-me h5 {
-  font-size: 2rem;
-}
 #about-me p {
   font-size: 1.25rem;
+}
+
+#about-me p strong {
+  font-size: 2rem;
+}
+
+#about-me p strong {
+  margin: 0 auto;
 }
 
 .btn {
@@ -36,13 +46,17 @@ h3 {
 }
 
 .btn:hover {
-  transition: ease .2s;
-  filter: brightness(120%);
+  transition: ease 0.3s;
+  /* filter: brightness(120%); */
   color: #fff;
+  background-color: #9aadbf;
 }
 
-
-h1 {
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+v c h1 {
   text-align: center;
   font-size: 7rem;
 }
@@ -60,7 +74,6 @@ hr {
 h3 {
   font-size: 3.5rem;
 }
-
 
 /* experience adjustments for ipad/iphone */
 @media (max-width: 980px) {
@@ -114,13 +127,12 @@ h3 {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background: #000;
-
 }
 
 .card:hover .card-img-overlay {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .overlay-text {
@@ -128,16 +140,14 @@ h3 {
 }
 /* abilities section */
 #abilities {
-	background-color:  #f9f7f7;
-	color: #112d4e;
+  background-color: #f9f7f7;
+  color: #112d4e;
 }
 
 .abilities-list {
   list-style-type: none;
   padding: 0;
 }
-
-
 
 /* contact section */
 #contact {
@@ -149,7 +159,7 @@ h3 {
 
 .footer-link {
   color: #f9f7f7;
-  transition: color .5s;
+  transition: color 0.5s;
   text-decoration: none;
 }
 
